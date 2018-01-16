@@ -1,0 +1,4 @@
+# Line of code that allows me to 'step' R through package install. 
+# Needed when anti-virus software can't keep up with R install speed and package isn't installed correctly
+
+debug(utils:::unpackPkgZip)

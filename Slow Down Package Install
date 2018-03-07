@@ -1,0 +1,10 @@
+# the following is a different work around the problem that anti-virus software on the computer can't keep up with R install speed
+# instead of installing packages stepwise as was the first solution, this just slows down the install speed
+
+trace(utils:::unpackPkgZip, edit=TRUE)
+
+# This will open up another text document in the RStudio viewer, and then around line 140 change
+
+Sys.sleep(0.5)
+to
+Sys.sleep(2)

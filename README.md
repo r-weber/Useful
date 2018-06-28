@@ -1,2 +1,1 @@
-# Useful
-Bits of code and functions
+# Useful Bits of code and functions
